@@ -63,6 +63,7 @@ class RestaurantDetailViewController: UIViewController,UITableViewDataSource,UIT
         
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.separatorStyle = .none
     }
-    
+     
 }
